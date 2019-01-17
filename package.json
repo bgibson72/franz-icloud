@@ -6,7 +6,7 @@
   "main": "index.js",
   "author": "Bryan Gibson <bryan.j.gibson@icloud.com>",
   "license": "MIT",
-  "repository": "https://github.com/meetfranz/recipe-icloud",
+  "repository": "https://github.com/bgibson72/franz-icloud",
   "config": {
     "serviceURL": "https://www.icloud.com/"
   }
