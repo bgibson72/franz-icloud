@@ -1,0 +1,13 @@
+{
+  "id": "iCloud Mail",
+  "name": "iCloud Mail",
+  "version": "1.0.0",
+  "description": "iCloud Mail",
+  "main": "index.js",
+  "author": "Bryan Gibson <bryan.j.gibson@icloud.com>",
+  "license": "MIT",
+  "repository": "https://github.com/meetfranz/recipe-icloudmail",
+  "config": {
+    "serviceURL": "https://www.icloud.com/"
+  }
+}
