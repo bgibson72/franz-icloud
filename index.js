@@ -1,2 +1,3 @@
-// default integration
+"use strict";
+
 module.exports = Franz => Franz;
