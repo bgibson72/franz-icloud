@@ -1,16 +1,24 @@
-// orat.io integration
-module.exports = (Franz) => {
+"use strict";
+
+module.exports = Franz => {
   function getMessages() {
-    let direct = 0;
-    let indirect = 0;
-    const FranzData = document.querySelector('#FranzMessages').dataset;
-    if (FranzData) {
-      direct = FranzData.direct;
-      indirect = FranzData.indirect;
+    let count = 0;
+
+
+    if (document.getElementsByClassName('J-Ke n0').length > 0) {
+      if (document.getElementsByClassName('J-Ke n0')[0].getAttribute('aria-label') != null) {
+        count = parseInt(document.getElementsByClassName('J-Ke n0')[0].getAttribute('aria-label').replace(/[^0-9.]/g, ''), 10);
+      }
     }
 
-    Franz.setBadge(direct, indirect);
-  }
+    count = parseInt(count, 10);
+
+    if (isNaN(count)) {
+      count = 0;
+    }
+
+    Franz.setBadge(count);
+  };
 
   Franz.loop(getMessages);
-}
+};
