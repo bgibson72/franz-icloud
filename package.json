@@ -2,12 +2,12 @@
   "id": "iCloud",
   "name": "iCloud",
   "version": "1.0.0",
-  "description": "Apple iCloud",
+  "description": "Apple iCloud Mail",
   "main": "index.js",
   "author": "Bryan Gibson <bryan.j.gibson@icloud.com>",
   "license": "MIT",
   "repository": "https://github.com/bgibson72/franz-icloud",
   "config": {
-    "serviceURL": "https://www.icloud.com/"
+    "serviceURL": "https://www.icloud.com/#mail"
   }
 }
